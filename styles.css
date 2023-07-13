@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    /* Styles for smaller screens */
+
+    /* Example styles for smaller screens */
+    body {
+      font-size: 14px;
+    }
+
+    .nav-link {
+      display: flex;
+    }
+  }
+
+  main {
+    padding: 20px;
+  }
+
+
+
+  body {
+    display: flex;
+  }
+
+  header {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0.5px solid blue;
+    padding: 10px;
+    max-height: 550px;
+  }
+
+  i {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  code {
+    background-color: rgb(214, 209, 209);
+    border-radius: initial;
+  }
